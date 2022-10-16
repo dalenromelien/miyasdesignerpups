@@ -1,0 +1,40 @@
+.past-litters, .current-litters, .parents{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.img-container{
+    text-align:center;
+    display: inline-block;
+    width: 30vw;
+    margin: 2rem;
+}
+
+.img-container img{
+    height: 40vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+header{
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .img-container{
+        text-align:center;
+        display: inline-block;
+        width: 80vw;
+        margin: 2rem;
+    }
+    .contract{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .img-container img{
+        width: 80vw;
+    }
+}
