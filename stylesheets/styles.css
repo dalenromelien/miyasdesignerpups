@@ -108,6 +108,7 @@ footer a:link{
 .front-page-image img{
     position: relative;
     width:100%;
+    height: 60vh;
 }
 
 .front-page-text{
@@ -159,5 +160,11 @@ article{
     }
     .front-page-content{
         flex-direction: column;
+    }
+    .front-page-image{
+        width: 80vw;
+    }
+    article{
+        font-size: 2rem;
     }
 }
