@@ -1,4 +1,4 @@
-.full-reg-contracts-container, .limited-reg-contracts-container{
+.full-reg-contracts-container, .limited-reg-contracts-container, .general-reg-contracts-container{
     margin: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -16,7 +16,7 @@ img{
     height: 40vh;
     width: 30vw;
     border: 10px solid #5b0e2d;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 600px) {
