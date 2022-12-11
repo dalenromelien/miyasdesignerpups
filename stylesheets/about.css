@@ -27,7 +27,7 @@ hr{
 .text-container{
     width: 50vw;
     height: 45vh;
-    font-size: 2vw;
+    font-size: 1rem;
     padding: 1rem;
     overflow-wrap: break-word;
 }
@@ -44,7 +44,7 @@ hr{
     }
 
     .text-container{
-        font-size: 7vw;
+        font-size: 1rem;
         width: 100vw;
     }
     .image-container{
